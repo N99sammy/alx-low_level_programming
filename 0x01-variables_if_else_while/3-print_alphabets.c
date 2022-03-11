@@ -2,7 +2,7 @@
 
 /**
  *  *  *main - entry point
- *   *   *Description: random number in n +ve/-ve
+ *   *   *Description: random number in n +ve/-ve b
  *    *    *Return: 0 on success
  */
 int main(void)
