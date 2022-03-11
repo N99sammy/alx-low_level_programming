@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *  *main - entry point
+ *  *main - ecntry point
  *   *Description: random number in n +ve/-ve
  *    *Return: 0 on success
 */
