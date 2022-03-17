@@ -12,11 +12,11 @@ int main(void)
 
 	while (c < 4000000)
 	{
-		next = a + b;
+		c = a + b;
 		a = b;
 		b = c;
 		if (c % 2 == 0)
-			sum += next;
+			sum += c;
 	}
 	printf("%i\n", sum);
 	return (0);
