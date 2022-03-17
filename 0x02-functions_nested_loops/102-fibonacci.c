@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: 
+ * Description:
  * fibonacci sequence(excluded), followed by a new line
  * Return: 0
  */
