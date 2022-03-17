@@ -14,7 +14,7 @@ int main(void)
 	{
 		c = a + b;
 		a = b;
-		b = c\\;
+		b = c;
 		printf("%lu", c);
 
 		if (i < 97)
@@ -23,4 +23,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
 }
