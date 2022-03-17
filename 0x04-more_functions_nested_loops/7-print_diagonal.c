@@ -1,4 +1,4 @@
-#include "maon.h"
+#include "main.h"
 /**
  * print_diagonal - prints diagonal line
  * @n: print int
