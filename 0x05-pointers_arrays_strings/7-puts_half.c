@@ -4,16 +4,24 @@
  * @str: pointer to the string to print
  * Return: void
 */
-
 void puts_half(char *str)
-{
-int len = 0;
-for (len = 0; str[len] != '\0'; len++)
-;
 
-for (int i = (len + 1) / 2; str[i] != '\0'; i++)
 {
-	_putchar(str[i]);
+int i, last;
+
+i = 0;
+while (str[i] != '\0')
+{
+i++;
 }
-_putchar('\n');
+
+last = (i + 1) / 2;
+
+for (i = last; str[i]; i++)
+{
+_putchar (str[i]);
+}
+
+_putchar ('\n');
+
 }
