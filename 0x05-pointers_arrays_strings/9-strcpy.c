@@ -5,13 +5,6 @@
  *@src: A pointer to a char that will be changed
  *Return: dest
  */
-#include "main.h"
-/**
-* _strcpy - function that copies the string pointed to by src
-* @dest: input
-* @src: input
-* Return: value the pointer to dest
-*/
 char *_strcpy(char *dest, char *src)
 {
 	int l = 0;
