@@ -1,0 +1,1 @@
+more pinters arrays strings
