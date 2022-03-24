@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * rot13 - encrypts strings in code 13
+ * rot13 - encodes a string in rot13
  * @s: string to be encoded
  *
  * Return: the resulting string
@@ -14,7 +15,7 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; s[i] != '\0'; j++)
+		for (j = 0; a[j] != '\0'; j++)
 		{
 			if (s[i] == a[j])
 			{
@@ -23,5 +24,6 @@ char *rot13(char *s)
 			}
 		}
 	}
+
 	return (s);
 }
